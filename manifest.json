@@ -142,7 +142,7 @@
     {
       "version": "v3.1.4",
       "db_version": "1.5",
-      "description": "Fixed MySQL backup path resolution and silent mysqldump failure",
+      "description": "Fixed MySQL backup path resolution, silent mysqldump failure, and runtime syntax crash",
       "changes": [
         "Auto-locate mysqldump via glob scan of all MySQL Server versions on Windows",
         "Backup directory resolved to absolute path (works in frozen exe mode)",
@@ -150,10 +150,11 @@
         "Full logging: resolved paths, command (password masked), returncode, stderr",
         "Partial/empty backup files cleaned up on failure",
         "Timeout handler added for hung mysqldump processes",
-        "Clear error message when mysqldump is not found"
+        "Clear error message when mysqldump is not found",
+        "Fixed stray return statement causing indentation crash in update_manager.py"
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.1.4/TMCAA_LMP_Setup_v3.1.4.exe",
-      "released_at": "2026-03-02T16:11:37Z"
+      "released_at": "2026-03-02T16:15:59Z"
     }
   ]
 }
