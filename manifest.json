@@ -1,5 +1,5 @@
 {
-  "latest": "v2.5.8",
+  "latest": "v2.5.9",
   "versions": [
     {
       "version": "v2.5.3",
@@ -37,6 +37,16 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v2.5.8/TMCAA_LMP.exe",
       "released_at": "2026-03-02T13:46:29Z"
+    },
+    {
+      "version": "v2.5.9",
+      "db_version": "1.5",
+      "description": "Restart validation test update",
+      "changes": [
+        "UI marker added to confirm successful auto-restart"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v2.5.9/TMCAA_LMP.exe",
+      "released_at": "2026-03-02T13:54:33Z"
     }
   ]
 }
