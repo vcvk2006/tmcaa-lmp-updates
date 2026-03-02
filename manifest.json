@@ -1,0 +1,15 @@
+{
+  "latest": "v2.5.3",
+  "versions": [
+    {
+      "version": "v2.5.3",
+      "db_version": "1.5",
+      "description": "CI fix \u2014 spec file committed for Windows build pipeline",
+      "changes": [
+        "Committed TMCAA_LMP.spec to repo so GitHub Actions Windows runner can find it"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v2.5.3/TMCAA_LMP.exe",
+      "released_at": "2026-03-02T13:02:23Z"
+    }
+  ]
+}
