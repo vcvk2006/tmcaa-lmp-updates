@@ -1,5 +1,5 @@
 {
-  "latest": "v3.1.7",
+  "latest": "v3.1.8",
   "versions": [
     {
       "version": "v2.5.3",
@@ -180,6 +180,16 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.1.7/TMCAA_LMP_Setup_v3.1.7.exe",
       "released_at": "2026-03-02T17:03:45Z"
+    },
+    {
+      "version": "v3.1.8",
+      "db_version": "1.5",
+      "description": "Trial update verification build",
+      "changes": [
+        "Pipeline verification \u2014 no functional changes"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.1.8/TMCAA_LMP_Setup_v3.1.8.exe",
+      "released_at": "2026-03-02T17:15:59Z"
     }
   ]
 }
