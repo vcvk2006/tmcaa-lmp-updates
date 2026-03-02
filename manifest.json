@@ -1,5 +1,5 @@
 {
-  "latest": "v3.0.0",
+  "latest": "v3.0.1",
   "versions": [
     {
       "version": "v2.5.3",
@@ -87,6 +87,16 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.0.0/TMCAA_LMP_Setup_v3.0.0.exe",
       "released_at": "2026-03-02T14:39:57Z"
+    },
+    {
+      "version": "v3.0.1",
+      "db_version": "1.5",
+      "description": "Trial update to validate installer-based update system",
+      "changes": [
+        "UI marker to confirm installer update works end-to-end"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.0.1/TMCAA_LMP_Setup_v3.0.1.exe",
+      "released_at": "2026-03-02T14:44:38Z"
     }
   ]
 }
