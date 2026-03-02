@@ -1,5 +1,5 @@
 {
-  "latest": "v3.0.1",
+  "latest": "v3.1.0",
   "versions": [
     {
       "version": "v2.5.3",
@@ -97,6 +97,23 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.0.1/TMCAA_LMP_Setup_v3.0.1.exe",
       "released_at": "2026-03-02T14:44:38Z"
+    },
+    {
+      "version": "v3.1.0",
+      "db_version": "1.5",
+      "description": "Database configuration wizard for first-run setup",
+      "changes": [
+        "Added first-run database setup wizard at /db-setup",
+        "Removed hardcoded DB_PASSWORD default \u00e2\u20ac\u201d credentials read from .env only",
+        "App enters setup mode if MySQL connection fails (no crash)",
+        "Professional setup page with host, port, user, password, db name fields",
+        "Credentials saved to .env preserving unrelated keys",
+        "Installer does not overwrite .env (user data preserved across updates)",
+        "DB connection test with clear error messages, no stack traces",
+        "Robust logging for setup flow (password never logged)"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.1.0/TMCAA_LMP_Setup_v3.1.0.exe",
+      "released_at": "2026-03-02T15:23:09Z"
     }
   ]
 }
