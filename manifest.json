@@ -1,5 +1,5 @@
 {
-  "latest": "v2.5.3",
+  "latest": "v2.5.6",
   "versions": [
     {
       "version": "v2.5.3",
@@ -10,6 +10,16 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v2.5.3/TMCAA_LMP.exe",
       "released_at": "2026-03-02T13:02:23Z"
+    },
+    {
+      "version": "v2.5.6",
+      "db_version": "1.5",
+      "description": "CI verification timing fix for release asset availability",
+      "changes": [
+        "Release asset verification now retries up to 5 times with 5-second intervals"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v2.5.6/TMCAA_LMP.exe",
+      "released_at": "2026-03-02T13:18:44Z"
     }
   ]
 }
