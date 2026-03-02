@@ -1,5 +1,5 @@
 {
-  "latest": "v3.1.0",
+  "latest": "v3.1.1",
   "versions": [
     {
       "version": "v2.5.3",
@@ -114,6 +114,16 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.1.0/TMCAA_LMP_Setup_v3.1.0.exe",
       "released_at": "2026-03-02T15:23:09Z"
+    },
+    {
+      "version": "v3.1.1",
+      "db_version": "1.5",
+      "description": "Trial update to validate installer + DB setup build",
+      "changes": [
+        "UI marker to confirm v3.1.0 features deployed correctly"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.1.1/TMCAA_LMP_Setup_v3.1.1.exe",
+      "released_at": "2026-03-02T15:41:05Z"
     }
   ]
 }
