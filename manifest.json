@@ -1,5 +1,5 @@
 {
-  "latest": "v3.1.1",
+  "latest": "v3.1.3",
   "versions": [
     {
       "version": "v2.5.3",
@@ -124,6 +124,20 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.1.1/TMCAA_LMP_Setup_v3.1.1.exe",
       "released_at": "2026-03-02T15:41:05Z"
+    },
+    {
+      "version": "v3.1.3",
+      "db_version": "1.5",
+      "description": "Stable installer restart and clean shutdown fix",
+      "changes": [
+        "Installer now launches with 3-second delay after HTTP response is fully sent",
+        "Eliminated PyInstaller DLL race condition (_MEIxxxxx/python311.dll error)",
+        "Frontend no longer shows infinite spinner during update",
+        "Update overlay shows clear close/restart message instead of hanging",
+        "Catch handler gracefully handles server shutdown mid-request"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.1.3/TMCAA_LMP_Setup_v3.1.3.exe",
+      "released_at": "2026-03-02T16:04:21Z"
     }
   ]
 }
