@@ -1,5 +1,5 @@
 {
-  "latest": "v2.6.1",
+  "latest": "v3.0.0",
   "versions": [
     {
       "version": "v2.5.3",
@@ -71,6 +71,22 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v2.6.1/TMCAA_LMP.exe",
       "released_at": "2026-03-02T14:12:11Z"
+    },
+    {
+      "version": "v3.0.0",
+      "db_version": "1.5",
+      "description": "Stable installer-based update system with CI rebuild",
+      "changes": [
+        "Switched to Inno Setup installer for safe, reliable updates",
+        "Removed fragile exe self-replacement and batch scripts",
+        "Removed SIGTERM / taskkill shutdown logic from Python",
+        "Update detection uses HTTP-only \u00e2\u20ac\u201d no local fallback, explicit errors",
+        "CI pipeline rebuilt: builds exe + Inno Setup installer, uploads installer as release asset",
+        "Robust logging for manifest fetch, download, and installer launch",
+        "Installer handles process termination and restart via Windows Restart Manager"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.0.0/TMCAA_LMP_Setup_v3.0.0.exe",
+      "released_at": "2026-03-02T14:39:57Z"
     }
   ]
 }
