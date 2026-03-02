@@ -1,5 +1,5 @@
 {
-  "latest": "v2.5.9",
+  "latest": "v2.6.0",
   "versions": [
     {
       "version": "v2.5.3",
@@ -47,6 +47,20 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v2.5.9/TMCAA_LMP.exe",
       "released_at": "2026-03-02T13:54:33Z"
+    },
+    {
+      "version": "v2.6.0",
+      "db_version": "1.5",
+      "description": "Windows updater fix \u00e2\u20ac\u201d reliable process termination using taskkill",
+      "changes": [
+        "Removed SIGTERM / os._exit based shutdown \u00e2\u20ac\u201d bat now handles process termination",
+        "updater.bat uses taskkill /F /IM to force-kill the running exe",
+        "Added wait loop: bat polls tasklist until exe is fully gone before replacing",
+        "Exe image name dynamically detected from sys.executable",
+        "Detailed logging in update.log: kill attempt, wait loop, replacement, restart"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v2.6.0/TMCAA_LMP.exe",
+      "released_at": "2026-03-02T14:05:31Z"
     }
   ]
 }
