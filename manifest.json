@@ -1,5 +1,5 @@
 {
-  "latest": "v3.1.3",
+  "latest": "v3.1.4",
   "versions": [
     {
       "version": "v2.5.3",
@@ -138,6 +138,22 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.1.3/TMCAA_LMP_Setup_v3.1.3.exe",
       "released_at": "2026-03-02T16:04:21Z"
+    },
+    {
+      "version": "v3.1.4",
+      "db_version": "1.5",
+      "description": "Fixed MySQL backup path resolution and silent mysqldump failure",
+      "changes": [
+        "Auto-locate mysqldump via glob scan of all MySQL Server versions on Windows",
+        "Backup directory resolved to absolute path (works in frozen exe mode)",
+        "File existence and size verified after mysqldump \u00e2\u20ac\u201d no more silent failures",
+        "Full logging: resolved paths, command (password masked), returncode, stderr",
+        "Partial/empty backup files cleaned up on failure",
+        "Timeout handler added for hung mysqldump processes",
+        "Clear error message when mysqldump is not found"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.1.4/TMCAA_LMP_Setup_v3.1.4.exe",
+      "released_at": "2026-03-02T16:11:37Z"
     }
   ]
 }
