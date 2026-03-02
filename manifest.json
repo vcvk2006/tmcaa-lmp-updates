@@ -1,5 +1,5 @@
 {
-  "latest": "v2.5.6",
+  "latest": "v2.5.8",
   "versions": [
     {
       "version": "v2.5.3",
@@ -20,6 +20,23 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v2.5.6/TMCAA_LMP.exe",
       "released_at": "2026-03-02T13:18:44Z"
+    },
+    {
+      "version": "v2.5.8",
+      "db_version": "1.5",
+      "description": "Deep Windows updater reliability fix",
+      "changes": [
+        "Fixed: SIGTERM does not terminate Waitress on Windows \u00e2\u20ac\u201d replaced with os._exit(0)",
+        "Fixed: updater.bat now waits for main process PID to exit (up to 30 s) before replacing exe",
+        "Fixed: move /Y retries up to 10 times with 1 s delay to handle lingering file locks",
+        "Fixed: removed pause from bat error path (hung forever with CREATE_NO_WINDOW)",
+        "Fixed: increased response flush delay from 0.5 s to 1.5 s for reliable HTTP delivery",
+        "Added shutdown_for_update() function with explicit log flush before os._exit",
+        "updater.bat logs every step to logs/update.log with timestamps",
+        "Bat uses CRLF line endings for Windows cmd.exe compatibility"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v2.5.8/TMCAA_LMP.exe",
+      "released_at": "2026-03-02T13:46:29Z"
     }
   ]
 }
