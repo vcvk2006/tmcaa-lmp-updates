@@ -1,6 +1,16 @@
 {
-  "latest": "v3.4.3",
+  "latest": "v3.5.0(Beta)",
   "versions": [
+    {
+      "version": "v3.5.0(Beta)",
+      "db_version": "1.6",
+      "description": "Beta trial update verification build",
+      "changes": [
+        "Pipeline verification \u00e2\u20ac\u201d no functional changes"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.5.0(Beta)/TMCAA_LMP.exe",
+      "released_at": "2026-03-03T15:24:07Z"
+    },
     {
       "version": "v2.5.3",
       "db_version": "1.5",
