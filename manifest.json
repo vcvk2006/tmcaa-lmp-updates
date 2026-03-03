@@ -1,5 +1,5 @@
 {
-  "latest": "v3.4.0",
+  "latest": "v3.4.1",
   "versions": [
     {
       "version": "v2.5.3",
@@ -254,6 +254,16 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.4.0/TMCAA_LMP.exe",
       "released_at": "2026-03-03T13:35:58Z"
+    },
+    {
+      "version": "v3.4.1",
+      "db_version": "1.6",
+      "description": "Update pipeline verification test",
+      "changes": [
+        "Update pipeline test"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.4.1/TMCAA_LMP.exe",
+      "released_at": "2026-03-03T13:45:15Z"
     }
   ]
 }
