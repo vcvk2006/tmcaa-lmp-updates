@@ -1,5 +1,5 @@
 {
-  "latest": "v3.3.1",
+  "latest": "v3.4.0",
   "versions": [
     {
       "version": "v2.5.3",
@@ -239,6 +239,21 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.3.1/TMCAA_LMP.exe",
       "released_at": "2026-03-03T03:42:17Z"
+    },
+    {
+      "version": "v3.4.0",
+      "db_version": "1.6",
+      "description": "Added receipt number support (4\u00e2\u20ac\u201c5 digit unique)",
+      "changes": [
+        "New receipt_number column in members table (VARCHAR(5), UNIQUE, nullable)",
+        "Migration 1.6 adds column automatically on client update",
+        "Receipt Number field in Add Member and Edit Member forms",
+        "4\u00e2\u20ac\u201c5 digit numeric validation with uniqueness enforcement",
+        "Receipt number displayed on member card below LM number",
+        "Schema integrity check covers receipt_number column"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.4.0/TMCAA_LMP.exe",
+      "released_at": "2026-03-03T12:00:53Z"
     }
   ]
 }
