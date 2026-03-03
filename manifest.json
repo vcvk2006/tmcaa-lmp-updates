@@ -1,5 +1,5 @@
 {
-  "latest": "v3.4.2",
+  "latest": "v3.4.3",
   "versions": [
     {
       "version": "v2.5.3",
@@ -274,6 +274,17 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.4.2/TMCAA_LMP.exe",
       "released_at": "2026-03-03T15:03:06Z"
+    },
+    {
+      "version": "v3.4.3",
+      "db_version": "1.6",
+      "description": "Trial update verification build",
+      "changes": [
+        "Fixed stray closing brace in base template",
+        "Pipeline verification \u00e2\u20ac\u201d no functional changes"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.4.3/TMCAA_LMP.exe",
+      "released_at": "2026-03-03T15:20:26Z"
     }
   ]
 }
