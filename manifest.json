@@ -1,5 +1,5 @@
 {
-  "latest": "v3.2.0",
+  "latest": "v3.2.1",
   "versions": [
     {
       "version": "v2.5.3",
@@ -204,6 +204,16 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.2.0/TMCAA_LMP_Setup_v3.2.0.exe",
       "released_at": "2026-03-03T03:03:59Z"
+    },
+    {
+      "version": "v3.2.1",
+      "db_version": "1.5",
+      "description": "Lifecycle hard-exit verification build",
+      "changes": [
+        "Testing installer launch and hard process termination"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.2.1/TMCAA_LMP_Setup_v3.2.1.exe",
+      "released_at": "2026-03-03T03:08:45Z"
     }
   ]
 }
