@@ -1,5 +1,5 @@
 {
-  "latest": "v3.3.0",
+  "latest": "v3.3.1",
   "versions": [
     {
       "version": "v2.5.3",
@@ -227,6 +227,18 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.3.0/TMCAA_LMP.exe",
       "released_at": "2026-03-03T03:38:05Z"
+    },
+    {
+      "version": "v3.3.1",
+      "db_version": "1.5",
+      "description": "EXE auto-update lifecycle verification build",
+      "changes": [
+        "Testing EXE replacement updater",
+        "Verifying hard process termination",
+        "Verifying automatic relaunch"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.3.1/TMCAA_LMP.exe",
+      "released_at": "2026-03-03T03:42:17Z"
     }
   ]
 }
