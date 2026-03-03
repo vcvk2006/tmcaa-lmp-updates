@@ -1,5 +1,5 @@
 {
-  "latest": "v3.1.8",
+  "latest": "v3.2.0",
   "versions": [
     {
       "version": "v2.5.3",
@@ -190,6 +190,20 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.1.8/TMCAA_LMP_Setup_v3.1.8.exe",
       "released_at": "2026-03-02T17:15:59Z"
+    },
+    {
+      "version": "v3.2.0",
+      "db_version": "1.5",
+      "description": "Fixed installer execution and hard process termination",
+      "changes": [
+        "Installer launched via subprocess.Popen with shell=True for reliable execution",
+        "Application force-terminated with os._exit(0) immediately after launching installer",
+        "Removed delayed thread shutdown logic \u00e2\u20ac\u201d no more 3-second timer",
+        "Removed SIGTERM usage and graceful Flask shutdown attempts",
+        "UI message updated: Installing update... The application will now close."
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.2.0/TMCAA_LMP_Setup_v3.2.0.exe",
+      "released_at": "2026-03-03T03:03:59Z"
     }
   ]
 }
