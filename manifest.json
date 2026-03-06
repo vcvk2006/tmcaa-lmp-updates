@@ -1,5 +1,5 @@
 {
-  "latest": "v3.6.3",
+  "latest": "v3.6.4",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -366,6 +366,19 @@
         "No functional changes"
       ],
       "released_at": "2026-03-06T05:28:38Z"
+    },
+    {
+      "version": "v3.6.4",
+      "db_version": "1.8",
+      "description": "Update reliability and CSS deployment fixes",
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.6.4/TMCAA_LMP.exe",
+      "changes": [
+        "CSS files now always overwrite on startup for frozen builds",
+        "Updater batch script retries exe replacement on Windows file locks",
+        "Updater process launches in isolated console",
+        "Cleaner application shutdown via SIGTERM"
+      ],
+      "released_at": "2026-03-06T05:48:47Z"
     }
   ]
 }
