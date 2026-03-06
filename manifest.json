@@ -1,5 +1,5 @@
 {
-  "latest": "v3.6.0",
+  "latest": "v3.6.1",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -328,6 +328,20 @@
         "Database migration 1.7: joining_date DATE column added to members table"
       ],
       "released_at": "2026-03-06T03:29:35Z"
+    },
+    {
+      "version": "v3.6.1",
+      "db_version": "1.8",
+      "description": "Update UX improvements and UI fixes",
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.6.1/TMCAA_LMP.exe",
+      "changes": [
+        "Simplified update completion flow",
+        "Removed restart and stay options after update",
+        "Users now manually restart the application after updates",
+        "Fixed Windows layout issues in advanced search",
+        "Minor UI stability improvements"
+      ],
+      "released_at": "2026-03-06T03:59:31Z"
     }
   ]
 }
