@@ -1,5 +1,5 @@
 {
-  "latest": "v3.6.5",
+  "latest": "v3.6.6",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -390,6 +390,22 @@
         "No functional changes"
       ],
       "released_at": "2026-03-06T05:53:25Z"
+    },
+    {
+      "version": "v3.6.6",
+      "db_version": "2.0",
+      "description": "Phone system overhaul \u00e2\u20ac\u201d validation, cleanup, and whatsapp_number removal",
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.6.6/TMCAA_LMP.exe",
+      "changes": [
+        "Removed obsolete whatsapp_number field from entire application",
+        "Database migration 2.0: DROP COLUMN whatsapp_number from members table",
+        "Added backend phone validation with country code and phone number regex",
+        "Indian +91 numbers enforced to exactly 10 digits",
+        "Duplicate phone number detection before database insert",
+        "Phone inputs changed to type=tel with dynamic maxlength based on country code",
+        "Search system fully uses member_phones table with LEFT JOIN"
+      ],
+      "released_at": "2026-03-06T06:55:58Z"
     }
   ]
 }
