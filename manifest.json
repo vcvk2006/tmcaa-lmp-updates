@@ -1,5 +1,5 @@
 {
-  "latest": "v3.6.1",
+  "latest": "v3.6.2",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -342,6 +342,19 @@
         "Minor UI stability improvements"
       ],
       "released_at": "2026-03-06T03:59:31Z"
+    },
+    {
+      "version": "v3.6.2",
+      "db_version": "1.8",
+      "description": "Database schema repair and stability improvements",
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.6.2/TMCAA_LMP.exe",
+      "changes": [
+        "Added automatic creation of member_courses table if missing",
+        "Improved schema integrity repair system",
+        "Fixed crash when member_courses table was missing",
+        "Improved database migration stability"
+      ],
+      "released_at": "2026-03-06T05:01:36Z"
     }
   ]
 }
