@@ -1,5 +1,5 @@
 {
-  "latest": "v3.5.0",
+  "latest": "v3.6.0",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -305,6 +305,29 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.5.0/TMCAA_LMP.exe",
       "released_at": "2026-03-03T15:53:27Z"
+    },
+    {
+      "version": "v3.6.0",
+      "db_version": "1.7",
+      "description": "Advanced search system and UX improvements",
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.6.0/TMCAA_LMP.exe",
+      "changes": [
+        "Introduced advanced token-based search with rounded segmented pills",
+        "Added slash command filter system (/name, /lm, /course, /cyear, /jdate, /status)",
+        "Implemented stacked filters with comma-separated IN-style matching",
+        "Added strict AND filter mode toggle (default OR)",
+        "Implemented live search updates with debounced fetch",
+        "Improved search keyboard navigation for slash command dropdown",
+        "Added joining date field with DD/MM/YYYY auto-formatting",
+        "Joining date defaults to today when left empty",
+        "LM Number placeholder shows the next available number",
+        "Added joining year search filter",
+        "Renamed Year filter to Course Year for clarity",
+        "Improved token UI design with segmented label/value style",
+        "Dynamic SQL query builder with LEFT JOIN on member_courses",
+        "Database migration 1.7: joining_date DATE column added to members table"
+      ],
+      "released_at": "2026-03-06T03:29:35Z"
     }
   ]
 }
