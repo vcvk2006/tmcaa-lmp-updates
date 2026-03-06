@@ -1,5 +1,5 @@
 {
-  "latest": "v3.6.2",
+  "latest": "v3.6.3",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -355,6 +355,17 @@
         "Improved database migration stability"
       ],
       "released_at": "2026-03-06T05:01:36Z"
+    },
+    {
+      "version": "v3.6.3",
+      "db_version": "1.8",
+      "description": "Test update release",
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.6.3/TMCAA_LMP.exe",
+      "changes": [
+        "Test release to verify auto update system",
+        "No functional changes"
+      ],
+      "released_at": "2026-03-06T05:28:38Z"
     }
   ]
 }
