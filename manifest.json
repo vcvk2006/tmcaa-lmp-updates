@@ -1,5 +1,5 @@
 {
-  "latest": "v4.1.1",
+  "latest": "v4.1.2",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -547,6 +547,21 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.1/TMCAA_LMP.exe",
       "released_at": "2026-03-07T13:16:00Z"
+    },
+    {
+      "version": "v4.1.2",
+      "db_version": "2.6",
+      "description": "Fix Excel import template restoration for PyInstaller builds",
+      "changes": [
+        "PyInstaller spec now bundles app/assets/ directory into the executable",
+        "Import template correctly extracted from _MEIPASS and restored to static/ on startup",
+        "Permission logic extended: related action permissions grant page access",
+        "Members page accessible with any member permission (view, add, edit, delete)",
+        "Staff page accessible with any staff permission (manage_users, assign_roles, manage_roles)",
+        "Sidebar menu visibility updated to match extended permission logic"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.2/TMCAA_LMP.exe",
+      "released_at": "2026-03-07T14:01:04Z"
     }
   ]
 }
