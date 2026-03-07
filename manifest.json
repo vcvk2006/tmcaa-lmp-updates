@@ -1,5 +1,5 @@
 {
-  "latest": "v3.6.6",
+  "latest": "v3.6.7",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -406,6 +406,25 @@
         "Search system fully uses member_phones table with LEFT JOIN"
       ],
       "released_at": "2026-03-06T06:55:58Z"
+    },
+    {
+      "version": "v3.6.7",
+      "db_version": "2.3",
+      "description": "Schema restructure \u2014 FK-based courses/colleges, medical council reg no support, and education system redesign",
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v3.6.7/TMCAA_LMP.exe",
+      "changes": [
+        "Renamed tcmc_number to medical_council_reg_no",
+        "Medical council registration number now supports alphanumeric values",
+        "Courses table redesigned with course_code, course_name, and course_level",
+        "Default medical courses added (MBBS, BDS, BAMS, BUMS, BHMS, BNYS, BVSc & AH, BPT, BSMS, MD, MS, MDS, DNB, DM, MCh)",
+        "member_courses now uses college_id and course_id foreign keys",
+        "Colleges table redesigned with normalized college names",
+        "Default college added: GMC, Thiruvananthapuram",
+        "Education entry redesigned to College / Course / Joining Year structure",
+        "member_phones cleanup and validation improvements",
+        "Database migrations updated to 2.3"
+      ],
+      "released_at": "2026-03-07T07:03:37Z"
     }
   ]
 }
