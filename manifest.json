@@ -1,5 +1,5 @@
 {
-  "latest": "v4.1.2",
+  "latest": "v4.1.3",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -562,6 +562,19 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.2/TMCAA_LMP.exe",
       "released_at": "2026-03-07T14:01:04Z"
+    },
+    {
+      "version": "v4.1.3",
+      "db_version": "2.7",
+      "description": "Fix migration 2.7 failure when dropping index used by foreign key constraint",
+      "changes": [
+        "Migration 2.7 now drops the foreign key before dropping the unique index on member_phones",
+        "Correct composite unique key (member_id, phone_number) allows multiple phones per member",
+        "Foreign key constraint recreated with ON DELETE CASCADE after schema change",
+        "Course combobox now auto-resolves when typing just the course code (e.g. MBBS)"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.3/TMCAA_LMP.exe",
+      "released_at": "2026-03-07T15:22:49Z"
     }
   ]
 }
