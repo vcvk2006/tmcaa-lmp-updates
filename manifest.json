@@ -1,5 +1,5 @@
 {
-  "latest": "v4.1.0",
+  "latest": "v4.1.1",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -534,6 +534,19 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.0/TMCAA_LMP.exe",
       "released_at": "2026-03-07T12:56:03Z"
+    },
+    {
+      "version": "v4.1.1",
+      "db_version": "2.6",
+      "description": "Fix import template download and add automatic static asset restoration",
+      "changes": [
+        "Import template bundled in app/assets/ so it survives updates",
+        "Automatic static asset restoration on startup if files are missing",
+        "Never overwrites existing user files in static directory",
+        "Works in both script and frozen (exe) modes"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.1/TMCAA_LMP.exe",
+      "released_at": "2026-03-07T13:16:00Z"
     }
   ]
 }
