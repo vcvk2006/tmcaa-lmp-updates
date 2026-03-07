@@ -1,5 +1,5 @@
 {
-  "latest": "v3.6.8",
+  "latest": "v4.0.0",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -449,6 +449,31 @@
         "General form validation and search reliability improvements"
       ],
       "released_at": "2026-03-07T08:26:14Z"
+    },
+    {
+      "version": "v4.0.0",
+      "db_version": "2.4",
+      "description": "RBAC system, security enforcement, staff management, and UI improvements",
+      "changes": [
+        "Role-based access control (RBAC) system with roles, permissions, and role_permissions tables",
+        "Backend permission enforcement on all protected routes via @permission_required decorator",
+        "Staff management page with user creation, role assignment, and password reset",
+        "Role management with granular permission editor and toggle UI",
+        "Dedicated Colleges management page with full CRUD and advanced search",
+        "Dedicated Courses management page with full CRUD and advanced search",
+        "Inline college and course creation from sidebar without losing form data",
+        "Dynamic dropdown refresh after creating college or course",
+        "Global Add College and Add Course modals available on every page",
+        "Access denied page for unauthorized access attempts",
+        "Change password functionality for logged-in users",
+        "Sidebar quick-add buttons for Members, Colleges, and Courses",
+        "Permission modal scroll fix for long permission lists",
+        "Save button disabled by default in permission editor until changes are made",
+        "Dynamic search with token-based filters on staff, colleges, and courses pages",
+        "Database migration 2.4: roles, permissions, and role_permissions tables"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.0.0/TMCAA_LMP.exe",
+      "released_at": "2026-03-07T10:02:28Z"
     }
   ]
 }
