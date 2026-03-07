@@ -1,5 +1,5 @@
 {
-  "latest": "v4.0.2",
+  "latest": "v4.0.3",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -500,6 +500,18 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.0.2/TMCAA_LMP.exe",
       "released_at": "2026-03-07T10:29:37Z"
+    },
+    {
+      "version": "v4.0.3",
+      "db_version": "2.6",
+      "description": "Migration runner fix \u00e2\u20ac\u201d MySQL unread result error",
+      "changes": [
+        "Migration runner now consumes result sets after each SQL statement",
+        "Fixes mysql.connector.errors.InternalError: Unread result found on startup",
+        "Safe for SELECT, ALTER TABLE, CREATE TABLE, and INSERT statements"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.0.3/TMCAA_LMP.exe",
+      "released_at": "2026-03-07T10:35:18Z"
     }
   ]
 }
