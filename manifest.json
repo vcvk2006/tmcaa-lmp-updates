@@ -1,5 +1,5 @@
 {
-  "latest": "v4.1.4",
+  "latest": "v4.1.5",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -588,6 +588,22 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.4/TMCAA_LMP.exe",
       "released_at": "2026-03-07T16:23:17Z"
+    },
+    {
+      "version": "v4.1.5",
+      "db_version": "2.7",
+      "description": "Self-healing database initialization for fresh installs, upgrades, and reinstalls",
+      "changes": [
+        "Startup schema validation ensures users, roles, permissions, and role_permissions exist before serving routes",
+        "Admin-to-users table migration guard runs automatically on every startup",
+        "Fresh installs create RBAC schema directly if neither admin nor users table exists",
+        "Schema integrity checker auto-repairs missing tables and columns instead of crashing",
+        "Fail-safe error page shown if database initialization fails",
+        "Improved startup logging for migration and schema validation steps",
+        "Routes only registered after successful database validation"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.5/TMCAA_LMP.exe",
+      "released_at": "2026-03-07T16:44:49Z"
     }
   ]
 }
