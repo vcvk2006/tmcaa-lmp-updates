@@ -1,5 +1,5 @@
 {
-  "latest": "v4.0.1",
+  "latest": "v4.0.2",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -486,6 +486,20 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.0.1/TMCAA_LMP.exe",
       "released_at": "2026-03-07T10:11:27Z"
+    },
+    {
+      "version": "v4.0.2",
+      "db_version": "2.6",
+      "description": "Education table NULL constraint fix",
+      "changes": [
+        "college_id and course_id in member_courses now allow NULL values",
+        "Education rows accepted with any combination of college, course, or year",
+        "Completely empty education rows are skipped during insert",
+        "Fixed Column college_id cannot be null error when editing members",
+        "Database migration 2.6: ALTER member_courses columns to nullable"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.0.2/TMCAA_LMP.exe",
+      "released_at": "2026-03-07T10:29:37Z"
     }
   ]
 }
