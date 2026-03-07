@@ -1,5 +1,5 @@
 {
-  "latest": "v4.0.3",
+  "latest": "v4.1.0",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -512,6 +512,28 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.0.3/TMCAA_LMP.exe",
       "released_at": "2026-03-07T10:35:18Z"
+    },
+    {
+      "version": "v4.1.0",
+      "db_version": "2.6",
+      "description": "Improved Excel import system, duplicate detection fixes, UI improvements and permissions modal fixes",
+      "changes": [
+        "Two-stage Excel import: Analyze then Apply with user decisions on duplicates",
+        "Comprehensive duplicate detection for all unique fields: membership_number, receipt_number, medical_council_reg_no",
+        "Color-coded conflict badges: blue for Membership, yellow for Receipt, pink for MCR",
+        "Per-row error handling: failed rows are skipped without aborting the entire import",
+        "Course mapping uses course_code only \u00e2\u20ac\u201d no dependency on course_name",
+        "Field-level validation errors displayed under Row Errors with field name and message",
+        "Education import summary shows failed count alongside imported count",
+        "Membership number and receipt number normalization in both analyze and apply routes",
+        "Segmented Replace/Skip toggle for each duplicate row with Replace All and Skip All buttons",
+        "Import modal with 3 steps: Upload, Review Duplicates, and Direct Import",
+        "Removed redundant Course Errors section \u00e2\u20ac\u201d all errors unified under Row Errors",
+        "Permissions modal scroll fix: removed internal scrollbar, browser handles scrolling",
+        "Requires add_member permission for all import routes"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.0/TMCAA_LMP.exe",
+      "released_at": "2026-03-07T12:56:03Z"
     }
   ]
 }
