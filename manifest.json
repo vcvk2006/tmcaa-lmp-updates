@@ -1,5 +1,5 @@
 {
-  "latest": "v4.1.3",
+  "latest": "v4.1.4",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -575,6 +575,19 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.3/TMCAA_LMP.exe",
       "released_at": "2026-03-07T15:22:49Z"
+    },
+    {
+      "version": "v4.1.4",
+      "db_version": "2.7",
+      "description": "Fix fresh install issue where users table was missing when admin table existed",
+      "changes": [
+        "Fresh installs now run all migrations from 1.0 through current version",
+        "Migration 2.4 handles all cases: rename admin to users, create fresh users, or skip",
+        "Migration chain updated to include version 2.7",
+        "Existing installations and data are unaffected"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.4/TMCAA_LMP.exe",
+      "released_at": "2026-03-07T16:23:17Z"
     }
   ]
 }
