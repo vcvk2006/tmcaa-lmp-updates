@@ -622,7 +622,7 @@
         "Confirmation dialog shows only before destructive actions (remove spouse), not on add",
         "PyInstaller bundle includes all assets, templates, and migrations for reliable updates"
       ],
-      "released_at": "2026-03-18T16:19:38Z"
+      "released_at": "2026-03-18T16:35:37Z"
     }
   ]
 }
