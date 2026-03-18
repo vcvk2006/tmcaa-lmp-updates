@@ -1,5 +1,5 @@
 {
-  "latest": "v4.1.5",
+  "latest": "v4.1.6",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -604,6 +604,25 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.5/TMCAA_LMP.exe",
       "released_at": "2026-03-07T16:44:49Z"
+    },
+    {
+      "version": "v4.1.6",
+      "db_version": "2.8",
+      "description": "Spouse system with education tracking, UI improvements, and migration stability",
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.6/TMCAA_LMP.exe",
+      "changes": [
+        "New spouse management system \u00e2\u20ac\u201d add optional spouse name and education to each member",
+        "Spouse education tracking with college, course, and joining year (same as member education)",
+        "Database migration 2.8: spouse and spouse_education tables with cascade delete constraints",
+        "Improved spouse UI: compact toggle button [+]/[-] replaces checkbox",
+        "Smart validation: no empty spouse records created, confirmation required to remove spouse",
+        "Cascading deletes: deleting member or spouse auto-removes associated education records",
+        "Form state tracking in edit mode: Update button enables only on actual changes",
+        "Reuses existing college/course dropdown system for spouse education section",
+        "Confirmation dialog shows only before destructive actions (remove spouse), not on add",
+        "PyInstaller bundle includes all assets, templates, and migrations for reliable updates"
+      ],
+      "released_at": "2026-03-18T16:19:38Z"
     }
   ]
 }
