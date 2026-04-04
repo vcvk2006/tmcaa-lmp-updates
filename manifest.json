@@ -1,5 +1,5 @@
 {
-  "latest": "v4.1.9",
+  "latest": "v4.2.0",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -661,6 +661,24 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.9/TMCAA_LMP.exe",
       "released_at": "2026-04-04T06:03:43Z"
+    },
+    {
+      "version": "v4.2.0",
+      "db_version": "2.10",
+      "description": "Search system stabilization, match preview UI, and bulk selection system",
+      "changes": [
+        "Unified search behavior across members, staff, colleges, and courses",
+        "Fixed plain-text auto-tagging issue in search",
+        "Introduced match preview rows showing where results matched",
+        "Consistent search + filter separation across all modules",
+        "Added bulk selection and bulk delete functionality for all list pages",
+        "Select-all now works correctly after live search updates",
+        "Bulk delete button visibility improved (shown only when items selected)",
+        "Improved event handling using delegated listeners for dynamic DOM updates",
+        "General stability fixes and UI consistency improvements"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.2.0/TMCAA_LMP.exe",
+      "released_at": "2026-04-04T06:44:38Z"
     }
   ]
 }
