@@ -1,5 +1,5 @@
 {
-  "latest": "v4.2.0",
+  "latest": "v4.3.0",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -679,6 +679,22 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.2.0/TMCAA_LMP.exe",
       "released_at": "2026-04-04T06:44:38Z"
+    },
+    {
+      "version": "v4.3.0",
+      "db_version": "2.12",
+      "description": "Stats system fixes, restore stability, and UI simplification",
+      "changes": [
+        "Fixed stats not updating after database restore",
+        "Added automatic stats recalculation after restore and import",
+        "Fixed restore flow crash (MySQLCursor connection issue)",
+        "Simplified UI: replaced cards with clean total count display",
+        "Removed counts from sidebar for cleaner navigation",
+        "Improved trash view to show original usernames instead of placeholders",
+        "General bug fixes and stability improvements"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.3.0/TMCAA_LMP.exe",
+      "released_at": "2026-04-04T09:22:01Z"
     }
   ]
 }
