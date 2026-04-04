@@ -1,5 +1,5 @@
 {
-  "latest": "v4.3.0",
+  "latest": "v4.3.1",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -695,6 +695,22 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.3.0/TMCAA_LMP.exe",
       "released_at": "2026-04-04T09:22:01Z"
+    },
+    {
+      "version": "v4.3.1",
+      "db_version": "2.12",
+      "description": "Critical stability update \u00e2\u20ac\u201d RBAC fix, search UI fix, restore reliability",
+      "changes": [
+        "Fixed RBAC permission mismatch causing sidebar navigation failures",
+        "Standardized route access logic using OR-permission model",
+        "Fixed search token overflow with multi-value filters",
+        "Improved search UI stability and token wrapping",
+        "Enhanced RBAC logging for permission denial audit trail",
+        "Made check-update accessible to all authenticated users",
+        "Stability and reliability improvements"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.3.1/TMCAA_LMP.exe",
+      "released_at": "2026-04-04T10:07:49Z"
     }
   ]
 }
