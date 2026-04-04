@@ -1,5 +1,5 @@
 {
-  "latest": "v4.1.8",
+  "latest": "v4.1.9",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -644,6 +644,23 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.8/TMCAA_LMP.exe",
       "released_at": "2026-04-04T04:18:14Z"
+    },
+    {
+      "version": "v4.1.9",
+      "db_version": "2.10",
+      "description": "Unified search refactor, matched preview rows, and stability fixes",
+      "changes": [
+        "Unified search behavior across members, staff, colleges, and courses",
+        "Removed plain-text auto-tagging completely",
+        "Strict separation between search text and filter tags",
+        "Added matched preview rows under each result",
+        "Safe highlighting of matched values",
+        "Fixed matched_fields JSON serialization crash",
+        "Standardized search UX across all pages",
+        "Improved search stability and consistency"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.1.9/TMCAA_LMP.exe",
+      "released_at": "2026-04-04T06:03:43Z"
     }
   ]
 }
