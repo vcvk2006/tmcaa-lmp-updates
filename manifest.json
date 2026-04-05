@@ -1,5 +1,5 @@
 {
-  "latest": "v4.3.1",
+  "latest": "v4.3.2",
   "versions": [
     {
       "version": "v3.5.0(Beta)",
@@ -711,6 +711,24 @@
       ],
       "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.3.1/TMCAA_LMP.exe",
       "released_at": "2026-04-04T10:07:49Z"
+    },
+    {
+      "version": "v4.3.2",
+      "db_version": "2.12",
+      "description": "Search system stabilization, match preview UI, and bulk selection system",
+      "changes": [
+        "Fixed critical sidebar navigation issue where Members, Colleges, and Courses links were unresponsive on some client machines",
+        "Resolved JavaScript event handling bug caused by undefined event parameter in inline onclick handlers",
+        "Fixed update delivery issue caused by stale or incomplete manifest entries",
+        "Ensured clients correctly receive latest executable during updates",
+        "Unified search behavior across members, staff, colleges, and courses",
+        "Fixed plain-text auto-tagging issue in search",
+        "Introduced match preview rows showing where results matched",
+        "Improved bulk selection and bulk delete behavior across list pages",
+        "General stability improvements and UI consistency fixes"
+      ],
+      "download_url": "https://github.com/vcvk2006/tmcaa-lmp-updates/releases/download/v4.3.2/TMCAA_LMP.exe",
+      "released_at": "2026-04-05T02:25:33Z"
     }
   ]
 }
